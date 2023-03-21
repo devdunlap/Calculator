@@ -1,6 +1,6 @@
 // Place holder for the numbers
-let num1 = "";
-let num2 = "";
+let num1; 
+let num2; 
 // Sets up the numbers and buttons
 const container = document.getElementById("container");
 // Gets the numbers
@@ -43,3 +43,6 @@ multiplyBtn.addEventListener("click", function() {
 divideBtn.addEventListener("click", function() {
   container.innerHTML = Number(num1) / Number(num2);
 });
+
+// Add a clear button
+const clearBtn = document.getElementById("clear");
